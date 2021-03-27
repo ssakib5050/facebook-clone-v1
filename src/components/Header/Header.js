@@ -5,7 +5,6 @@ import {
   Container,
   Navbar,
   Nav,
-  NavDropdown,
   Form,
   FormControl,
   Button,
@@ -13,7 +12,13 @@ import {
 
 const Header = () => {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark" id="Navbar">
+    <Navbar
+      bg="dark"
+      expand="lg"
+      variant="dark"
+      id="Navbar"
+      className="fixed-top"
+    >
       <Container>
         <Navbar.Brand href="#home" className="font-weight-bold">
           Facebook Clone v1
