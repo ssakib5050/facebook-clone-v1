@@ -1,8 +1,8 @@
 #Login {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 991px) {
   #Login {
     margin-top: 5rem;
   }

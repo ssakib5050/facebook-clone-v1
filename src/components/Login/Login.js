@@ -6,14 +6,14 @@ const Login = () => {
   return (
     <div id="Login">
       <Container>
-        <Row className="justify-content-around">
+        <Row className="justify-content-around ">
           <Col
-            md={6}
-            className="d-none d-md-flex flex-column justify-content-center "
+            lg={6}
+            className="d-none d-lg-flex flex-column justify-content-center "
           >
             <img src="/internet.svg" className="img-fluid" />
           </Col>
-          <Col md={4} className="d-flex flex-column justify-content-center ">
+          <Col lg={4} className="d-flex flex-column justify-content-center ">
             <h2 className="font-weight-bold text-left">Create an account</h2>
             <p className="font-weight-bold text-left">
               It's free & always will be
