@@ -8,7 +8,7 @@ import Home from "./components/Home/Home";
 
 function App() {
   return (
-    <div className="App bg-light">
+    <div className="App">
       <Header />
 
       <Switch>
