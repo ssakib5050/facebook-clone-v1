@@ -20,7 +20,7 @@ const Header = () => {
       className="fixed-top"
     >
       <Container>
-        <Navbar.Brand href="#home" className="font-weight-bold">
+        <Navbar.Brand href="/" className="font-weight-bold">
           Facebook Clone v1
         </Navbar.Brand>
 
