@@ -1,0 +1,19 @@
+.postInput_image {
+  height: 40px;
+  width: 40px;
+  border-radius: 2rem;
+}
+
+.postInput_button {
+  border: none;
+  margin: 2px;
+}
+
+.postInput_button_img {
+  height: 20px;
+}
+
+.postInput_post_image_btn {
+  top: 15px;
+  right: 6px;
+}
