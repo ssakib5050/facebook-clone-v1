@@ -10,6 +10,8 @@ import {
   Button,
 } from "react-bootstrap";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Header = () => {
   return (
     <Navbar
@@ -20,7 +22,8 @@ const Header = () => {
       className="fixed-top"
     >
       <Container>
-        <Navbar.Brand href="/" className="font-weight-bold">
+        {/* User not logged In */}
+        {/* <Navbar.Brand href="/" className="font-weight-bold">
           Facebook Clone v1
         </Navbar.Brand>
 
@@ -41,7 +44,15 @@ const Header = () => {
             />
             <Button variant="outline-light">Login</Button>
           </Form>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
+        {/* User logged In */}
+        <div className="header_brand">
+          <FontAwesomeIcon icon={["fab", "apple"]} />
+          <FontAwesomeIcon icon={["fab", "microsoft"]} />
+          <FontAwesomeIcon icon={["fab", "google"]} />
+
+          <FontAwesomeIcon icon="check-square" />
+        </div>
       </Container>
     </Navbar>
   );
