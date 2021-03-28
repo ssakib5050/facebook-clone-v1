@@ -147,12 +147,34 @@ const Header = () => {
         </Row>
 
         {/* Mobile User Logged In  */}
-        <Row className="d-md-none d-flex text-center w-100">
-          <Col>Icon</Col>
-          <Col>Icon</Col>
-          <Col>Icon</Col>
-          <Col>Icon</Col>
-          <Col>Icon</Col>
+        <Row className="d-md-none d-flex text-center flex-grow-1 align-items-center">
+          <Col className="">
+            <HeaderNotification notification="2" icon="user" />
+          </Col>
+          <Col className="">
+            <HeaderNotification icon="search" />
+          </Col>
+          <Col className="">
+            <HeaderNotification notification="3" icon="comment" />
+          </Col>
+          <Col className="">
+            <HeaderNotification notification="4" icon="bell" />
+          </Col>
+          <Col className="">
+            <DropdownButton
+              menuAlign="right"
+              title={<FontAwesomeIcon icon={["fas", "ellipsis-v"]} />}
+              id="header_more_btn"
+            >
+              <Dropdown.Item eventKey="1">Action 1</Dropdown.Item>
+              <Dropdown.Item eventKey="1">Action 2</Dropdown.Item>
+              <Dropdown.Item eventKey="1">Action 3</Dropdown.Item>
+              <Dropdown.Item eventKey="1">Action 4</Dropdown.Item>
+              <Dropdown.Item eventKey="1">Action 5</Dropdown.Item>
+              <Dropdown.Divider />
+              <Dropdown.Item eventKey="4">Logout</Dropdown.Item>
+            </DropdownButton>
+          </Col>
         </Row>
       </Container>
     </Navbar>
