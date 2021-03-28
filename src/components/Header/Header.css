@@ -1,3 +1,9 @@
 #Navbar {
   background: #4169e1 !important;
 }
+
+.header_profile_img {
+  height: 35px;
+  width: 35px;
+  border-radius: 2rem;
+}
