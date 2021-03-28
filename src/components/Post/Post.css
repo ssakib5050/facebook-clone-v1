@@ -1,0 +1,9 @@
+.post_main_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 2rem;
+}
+
+#post_main_more::after {
+  display: none;
+}

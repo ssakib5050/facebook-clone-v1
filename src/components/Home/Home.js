@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import LeftContent from "../LeftContent/LeftContent";
 import RightContent from "../RightContent/RightContent";
 import PostInput from "../PostInput/PostInput";
+import Post from "../Post/Post";
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
           </Col>
           <Col className="dev" md={6}>
             <PostInput />
+
+            <Post />
           </Col>
           <Col className="dev d-md-block d-none" md={3}>
             <RightContent />

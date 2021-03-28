@@ -3,7 +3,7 @@ import "./PostInput.css";
 
 const PostInput = () => {
   return (
-    <div className="bg-white custom-dark-border p-2">
+    <div className="bg-white custom-dark-border p-2 mb-2">
       <form>
         <div className="d-flex">
           <img
