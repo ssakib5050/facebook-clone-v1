@@ -53,7 +53,7 @@ const Header = () => {
         </Navbar.Collapse> */}
 
         {/* Desktop User logged In */}
-        <Row className=" w-100">
+        <Row className=" w-100 d-none d-md-flex">
           <Col className="">
             <div className="d-flex ">
               <a href="" className="d-flex header_brand mr-2 ">
@@ -144,6 +144,15 @@ const Header = () => {
               </div>
             </div>
           </Col>
+        </Row>
+
+        {/* Mobile User Logged In  */}
+        <Row className="d-md-none d-flex text-center w-100">
+          <Col>Icon</Col>
+          <Col>Icon</Col>
+          <Col>Icon</Col>
+          <Col>Icon</Col>
+          <Col>Icon</Col>
         </Row>
       </Container>
     </Navbar>
