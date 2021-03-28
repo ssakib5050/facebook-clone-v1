@@ -1,0 +1,17 @@
+.leftcontenticon_main {
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.leftcontenticon_main.active {
+  background: #ffffff80;
+  border: 1px solid #b2bec3;
+}
+.leftcontenticon_main:hover {
+  background: #ffffff80;
+  border: 1px solid #b2bec3;
+}
+.leftcontenticon_img {
+  height: 30px;
+  width: 30px;
+  border-radius: 2rem;
+}

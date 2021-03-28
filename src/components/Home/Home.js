@@ -3,13 +3,15 @@ import "./Home.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 
+import LeftContent from "../LeftContent/LeftContent";
+
 const Home = () => {
   return (
     <div id="home" className="dev">
       <Container>
         <Row>
           <Col className="dev d-md-block d-none" md={3}>
-            Home
+            <LeftContent />
           </Col>
           <Col className="dev" md={6}>
             Home
