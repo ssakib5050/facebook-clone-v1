@@ -7,3 +7,11 @@
   width: 35px;
   border-radius: 2rem;
 }
+#header_more_btn {
+  background: transparent;
+  box-shadow: none !important;
+  border: none !important;
+}
+#header_more_btn::after {
+  display: none !important;
+}

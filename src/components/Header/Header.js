@@ -12,6 +12,8 @@ import {
   Button,
   Row,
   Col,
+  Dropdown,
+  DropdownButton,
 } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -103,11 +105,28 @@ const Header = () => {
                 </a>
               </div>
 
-              <div>
+              <div className="d-flex align-items-center">
                 <HeaderNotification notification="2" icon="user" />
                 <HeaderNotification notification="2" icon="comment" />
                 <HeaderNotification notification="2" icon="bell" />
-                <HeaderNotification icon={["fas", "ellipsis-v"]} />
+
+                <DropdownButton
+                  menuAlign="right"
+                  title={
+                    <FontAwesomeIcon icon={["fas", "ellipsis-v"]} size="lg" />
+                  }
+                  id="header_more_btn"
+                >
+                  <Dropdown.Item eventKey="1">Action 1</Dropdown.Item>
+                  <Dropdown.Item eventKey="1">Action 2</Dropdown.Item>
+                  <Dropdown.Item eventKey="1">Action 3</Dropdown.Item>
+                  <Dropdown.Item eventKey="1">Action 4</Dropdown.Item>
+                  <Dropdown.Item eventKey="1">Action 5</Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item eventKey="4">Logout</Dropdown.Item>
+                </DropdownButton>
+
+                {/* <HeaderNotification icon={["fas", "ellipsis-v"]} /> */}
 
                 {/* <a href="#" className="text-white mr-2">
                   <FontAwesomeIcon icon="user" size="lg" />
