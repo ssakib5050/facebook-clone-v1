@@ -24,14 +24,18 @@ const LeftContent = () => {
       </div>
 
       <div>
-        <h4 className="mt-4">Shourcuts</h4>
+        <h4 className="mt-4" style={{ color: "#535c68" }}>
+          Shourcuts
+        </h4>
         <LeftContentIcon title="Group 1" image="icons/leftContent/groups.png" />
         <LeftContentIcon title="Group 2" image="icons/leftContent/groups.png" />
         <LeftContentIcon title="Group 3" image="icons/leftContent/groups.png" />
       </div>
 
       <div>
-        <h4 className="mt-4">Explore</h4>
+        <h4 className="mt-4" style={{ color: "#535c68" }}>
+          Explore
+        </h4>
         <LeftContentIcon title="COVID-19" image="icons/leftContent/covid.png" />
         <LeftContentIcon title="Pages" image="icons/leftContent/pages.png" />
         <LeftContentIcon title="Saved" image="icons/leftContent/saved.png" />

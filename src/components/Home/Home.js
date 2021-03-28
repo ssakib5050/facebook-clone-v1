@@ -4,6 +4,7 @@ import "./Home.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import LeftContent from "../LeftContent/LeftContent";
+import RightContent from "../RightContent/RightContent";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
             Home
           </Col>
           <Col className="dev d-md-block d-none" md={3}>
-            Home
+            <RightContent />
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,26 @@
+.rightContent_border {
+  border: 1px solid #b2bec3;
+}
+
+.rightContent_border h5 {
+  color: #535c68;
+}
+
+.rightContent_language_btn {
+  background: transparent;
+  border: none;
+  color: #4169e1;
+}
+.rightContent_language_btn:hover {
+  background: #efefef;
+}
+.rightContent_language_btn.active {
+  background: #efefef;
+}
+
+.rightContent_more_btn {
+  border: none;
+  margin: 1px;
+  background: transparent;
+  color: #67686b;
+}
